@@ -6,9 +6,6 @@ import Link from 'next/link'
 import { Button } from '@game3/components/ui/button'
 import dynamic from 'next/dynamic'
 
-// Dynamically import the HeroBackground with no SSR
-// const HeroBackground = dynamic(() => import('./HeroBackground'), { ssr: false })
-
 export default function HeroSection() {
 	const [isMounted, setIsMounted] = useState(false)
 
@@ -19,8 +16,6 @@ export default function HeroSection() {
 
 	return (
 		<section className="relative min-h-screen flex items-center overflow-hidden">
-			{/* {isMounted && <HeroBackground />} */}
-
 			{/* Content that will appear on top of the 3D background */}
 			<div className="container mx-auto px-4 z-10 relative">
 				<div className="max-w-3xl mx-auto text-center">
