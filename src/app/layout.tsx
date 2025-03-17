@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import dynamic from 'next/dynamic'
 import { Poppins } from 'next/font/google'
 
 import { WalletProvider } from '@game3/providers/wallet-provider'
@@ -11,10 +10,6 @@ import { Toaster } from '@game3/components/ui/toaster'
 
 import './globals.css'
 
-// Dynamically import NoiseShader with no server-side rendering
-const NoiseShader = dynamic(() => import('@game3/components/effects/NoiseShader'), { ssr: false })
-
-// Load Poppins font
 const poppins = Poppins({
 	subsets: ['latin'],
 	weight: ['400', '500', '600', '700'],
@@ -30,15 +25,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body className={`${poppins.className} flex flex-col min-h-screen`}>
-				<WalletProvider>
-					<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+				<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+					<WalletProvider>
 						<Header />
 						<main className="pt-16 flex-grow">{children}</main>
 						<Footer />
 						<Toaster />
-						<NoiseShader />
-					</ThemeProvider>
-				</WalletProvider>
+					</WalletProvider>
+				</ThemeProvider>
 			</body>
 		</html>
 	)

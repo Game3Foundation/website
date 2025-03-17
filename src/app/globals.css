@@ -164,3 +164,71 @@
     mix-blend-mode: overlay;
   }
 }
+
+/* Chrome Text Effect */
+.chrome-text {
+  background: linear-gradient(
+    to bottom,
+    #f0f0f0 0%,
+    #c0c0c0 30%,
+    #a9a9a9 40%,
+    #d8d8d8 60%,
+    #f5f5f5 80%,
+    #ffffff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  position: relative;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.4),
+    0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.chrome-text::before {
+  content: "Game3 Foundation";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0) 45%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 55%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: chrome-shine 5s ease-in-out infinite;
+}
+
+@keyframes chrome-shine {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: -100% 50%;
+  }
+}
+
+/* Threejs effects */
+.threejs-effect {
+  mix-blend-mode: screen;
+}
+
+.threejs-container canvas {
+  filter: contrast(1.1) saturate(1.2);
+}
+
+/* Optimize for performance on scroll */
+* {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}

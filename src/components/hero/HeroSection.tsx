@@ -32,7 +32,7 @@ export default function HeroSection() {
 								animate={{ opacity: 1, y: 0 }}
 								transition={{ duration: 0.8 }}
 							>
-								<span className="text-orange-500 font-bold">Game3 Foundation</span>
+								<span className="chrome-text">Game3 Foundation</span>
 							</motion.h1>
 
 							<motion.p
@@ -57,7 +57,7 @@ export default function HeroSection() {
 						// Static version for server rendering
 						<>
 							<h1 className="text-5xl md:text-7xl font-medium mb-6">
-								<span className="text-orange-500 font-bold">Game3 Foundation</span>
+								<span className="chrome-text">Game3 Foundation</span>
 							</h1>
 							<p className="text-xl md:text-2xl text-gray-300 mb-10">
 								Advancing research and development for video game creators.
