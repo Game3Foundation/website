@@ -36,7 +36,7 @@ export default function HeroSection() {
 			<div className="container mx-auto px-4 z-10">
 				<div className="max-w-3xl mx-auto text-center">
 					<h1 className="text-6xl font-medium mb-4 ">Game3 Foundation</h1>
-					<p className="text-xl mb-8">Advancing research and development for video game creators.</p>
+					<p className="text-xl mb-8">Advancing research and development for the video game industry.</p>
 
 					{/* <div className="max-w-xl mx-auto">
             <div className="mb-2 text-left">

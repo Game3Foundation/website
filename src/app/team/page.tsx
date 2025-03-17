@@ -31,7 +31,7 @@ export default function TeamPage() {
 				community builders.
 			</p>
 
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+			{/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 				{teamMembers.map((member, index) => (
 					<div key={index} className="bg-gray-900 p-6 rounded-lg border border-gray-800">
 						<h2 className="text-2xl font-normal mb-1">{member.name}</h2>
@@ -39,7 +39,7 @@ export default function TeamPage() {
 						<p className="text-gray-400">{member.bio}</p>
 					</div>
 				))}
-			</div>
+			</div> */}
 		</div>
 	)
 }

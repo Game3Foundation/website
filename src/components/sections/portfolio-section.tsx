@@ -11,19 +11,13 @@ const portfolioItems = [
 		link: '/initiatives/research',
 	},
 	{
-		title: 'Generative Models',
+		title: 'Zero Network',
 		description:
-			'Advanced AI model for procedural game generation in Unity3D. Create immersive worlds, mechanics, and narrative structures powered by machine learning.',
-		imageUrl: '/images/game3-model.jpg',
-		link: '/initiatives/generative-models',
+			'A specialized layer-1 blockchain optimized for gaming applications with high throughput, low latency, and composable gaming assets.',
+		imageUrl: '/images/zero-network.jpg',
+		link: 'https://zero.io',
 	},
-	{
-		title: 'Agentic Systems',
-		description:
-			'Framework for implementing autonomous agents in games, enabling NPC behaviors with genuine emergent intelligence and dynamic responses to player actions.',
-		imageUrl: '/images/game3-project.jpg',
-		link: '/initiatives/agentic-systems',
-	},
+
 	{
 		title: 'GameDAO',
 		description:
@@ -32,18 +26,25 @@ const portfolioItems = [
 		link: 'https://gamedao.co',
 	},
 	{
-		title: 'Z3 Network',
-		description:
-			'A specialized layer-1 blockchain optimized for gaming applications with high throughput, low latency, and composable gaming assets.',
-		imageUrl: '/images/zero-network.jpg',
-		link: 'https://zero.io',
-	},
-	{
 		title: 'Battlepass',
 		description:
 			'A cross-game progression and rewards system that allows players to earn and utilize digital assets across different gaming ecosystems.',
 		imageUrl: '/images/battlepass.jpg',
 		link: '/initiatives/battlepass',
+	},
+	{
+		title: 'Generators',
+		description:
+			'Advanced AI models for procedural game and content generation. Create immersive worlds, mechanics, and narrative structures powered by machine learning.',
+		imageUrl: '/images/game3-generators.jpg',
+		link: '/initiatives/generative-models',
+	},
+	{
+		title: 'Agents',
+		description:
+			'Frameworks for implementing autonomous agents in games, enabling NPC behaviors with genuine emergent intelligence and dynamic responses to player actions.',
+		imageUrl: '/images/game3-agents.jpg',
+		link: '/initiatives/agentic-systems',
 	},
 ]
 

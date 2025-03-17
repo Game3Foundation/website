@@ -42,34 +42,45 @@ const socialLinks = [
 
 export default function Footer() {
 	return (
-		<footer className="bg-black text-white py-12">
-			<div className="container mx-auto px-4">
-				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+		<footer className="border-t border-border bg-background">
+			<div className="container mx-auto px-4 py-4">
+				<div className="grid grid-cols-1 md:grid-cols-5 gap-8">
 					<div>
-						<h3 className="text-xl font-medium mb-4">Game3 Foundation</h3>
-						<p className="text-gray-400">Research and development for video games in web3.</p>
+						<h3 className="font-medium mb-4 text-[10px]">Game3 Foundation</h3>
+						<p className="text-[10px] text-muted-foreground mb-4">
+							Advancing research and development for the video game industry.
+						</p>
 					</div>
 
 					<div>
-						<h3 className="text-xl font-medium mb-4">Links</h3>
-						<ul className="space-y-2">
+						<h3 className="font-medium mb-4 text-[10px]">Resources</h3>
+						<ul className="">
 							<li>
-								<Link href="/" className="text-gray-400 hover:text-white">
-									Home
-								</Link>
-							</li>
-							<li>
-								<Link href="/about" className="text-gray-400 hover:text-white">
+								<Link href="/about" className="text-[10px] text-muted-foreground hover:text-foreground">
 									About
 								</Link>
 							</li>
 							<li>
-								<Link href="/initiatives" className="text-gray-400 hover:text-white">
+								<Link
+									href="/mission"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
+								>
+									Mission
+								</Link>
+							</li>
+							<li>
+								<Link
+									href="/initiatives"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
+								>
 									Initiatives
 								</Link>
 							</li>
 							<li>
-								<Link href="/grants" className="text-gray-400 hover:text-white">
+								<Link
+									href="/grants"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
+								>
 									Grants
 								</Link>
 							</li>
@@ -77,62 +88,69 @@ export default function Footer() {
 					</div>
 
 					<div>
-						<h3 className="text-xl font-medium mb-4">Contact</h3>
-						<ul className="space-y-2">
+						<h3 className="font-medium mb-4 text-[10px]">Community</h3>
+						<ul>
 							<li>
-								<Link href="/contact" className="text-gray-400 hover:text-white">
-									Contact Us
-								</Link>
-							</li>
-							<li>
-								<a href="https://twitter.com/game3_official" className="text-gray-400 hover:text-white">
+								<a
+									href="https://twitter.com/game3foundation"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
+								>
 									Twitter
 								</a>
 							</li>
 							<li>
-								<a href="https://discord.gg/game3" className="text-gray-400 hover:text-white">
+								<a
+									href="https://discord.gg/h2VMgWY"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
+								>
 									Discord
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://github.com/game3foundation"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
+								>
+									GitHub
 								</a>
 							</li>
 						</ul>
 					</div>
 
 					<div>
-						<h3 className="text-xl font-medium mb-4">Get Involved</h3>
-						<ul className="space-y-2">
-							<li>
-								<Link href="/grants/apply" className="text-gray-400 hover:text-white">
-									Apply for Grant
-								</Link>
-							</li>
-							<li>
-								<Link href="/about" className="text-gray-400 hover:text-white">
-									Community
-								</Link>
-							</li>
+						<h3 className="font-medium mb-4 text-[10px]">Legal</h3>
+						<ul>
 							<li>
 								<Link
-									href="https://github.com/game3foundation"
-									className="text-gray-400 hover:text-white"
+									href="/privacy"
+									className="text-[10px] text-muted-foreground hover:text-foreground"
 								>
-									GitHub
+									Privacy Policy
+								</Link>
+							</li>
+							<li>
+								<Link href="/terms" className="text-[10px] text-muted-foreground hover:text-foreground">
+									Terms of Service
 								</Link>
 							</li>
 						</ul>
 					</div>
 				</div>
 
-				<div className="border-t border-gray-800 mt-8 pt-8 text-left text-gray-500">
-					<div className="flex flex-col sm:flex-row justify-between">
-						<p>© {new Date().getFullYear()} Game3 Foundation. All rights reserved.</p>
-						<div className="mt-2 sm:mt-0 space-x-4">
-							<Link href="/privacy" className="text-gray-500 hover:text-gray-400">
-								Privacy Policy
-							</Link>
-							<Link href="/terms" className="text-gray-500 hover:text-gray-400">
-								Terms of Service
-							</Link>
-						</div>
+				<div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+					<p className="text-[10px] text-muted-foreground">
+						© {new Date().getFullYear()} Game3 Foundation. All rights reserved.
+					</p>
+					<div className="mt-4 md:mt-0">
+						<p className="text-[10px] text-muted-foreground">
+							Building the decentralized future of gaming.
+						</p>
 					</div>
 				</div>
 			</div>
