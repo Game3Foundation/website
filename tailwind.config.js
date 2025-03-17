@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: ['class'],
@@ -48,6 +50,13 @@ module.exports = {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))',
 				},
+				// Add standard color palette
+				orange: colors.orange,
+				gray: colors.gray,
+				purple: colors.purple,
+				red: colors.red,
+				yellow: colors.yellow,
+				blue: colors.blue,
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
