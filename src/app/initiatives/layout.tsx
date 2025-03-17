@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from '@/components/ui/card'
+import { Card } from '@game3/components/ui/card'
 
 export default function InitiativesLayout({ children }: { children: React.ReactNode }) {
 	return (

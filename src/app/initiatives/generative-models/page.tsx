@@ -1,4 +1,4 @@
-import { CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
+import { CardContent, CardHeader, CardTitle, CardDescription } from '@game3/components/ui/card'
 
 export default function GenerativeModelsPage() {
 	return (

@@ -1,5 +1,5 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@game3/components/ui/card'
+import { Button } from '@game3/components/ui/button'
 import Link from 'next/link'
 
 const initiativeItems = [

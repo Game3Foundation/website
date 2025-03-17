@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
+import { Button } from '@game3/components/ui/button'
+import { Input } from '@game3/components/ui/input'
 
 export default function HeroSection() {
 	const [prompt, setPrompt] = useState('')

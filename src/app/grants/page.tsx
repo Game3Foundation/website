@@ -1,5 +1,5 @@
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
-import { SparkleButton } from '@/components/ui/sparkle-button'
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@game3/components/ui/card'
+import { SparkleButton } from '@game3/components/ui/sparkle-button'
 
 export default function GrantsPage() {
 	return (

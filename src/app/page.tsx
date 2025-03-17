@@ -1,7 +1,7 @@
 'use client'
 
-import HeroSection from '@/components/hero/HeroSection'
-import PortfolioSection from '@/components/sections/portfolio-section'
+import HeroSection from '@game3/components/hero/HeroSection'
+import PortfolioSection from '@game3/components/sections/portfolio-section'
 
 export default function HomePage() {
 	return (
