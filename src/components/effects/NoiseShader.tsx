@@ -21,7 +21,7 @@ export default function NoiseShader() {
 	>([])
 
 	// Keep references to animation frame and context
-	const requestRef = useRef<number>()
+	const requestRef = useRef<number | null>(null)
 	const contextRef = useRef<CanvasRenderingContext2D | null>(null)
 
 	// Handle scroll events
