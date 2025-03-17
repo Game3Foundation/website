@@ -4,11 +4,11 @@ export default function TermsPage() {
 	return (
 		<div className="container mx-auto px-4 py-16">
 			<div className="max-w-4xl mx-auto">
-				<h1 className="text-4xl font-serif mb-8 text-center">Terms of Service</h1>
+				<h1 className="text-4xl font-medium mb-8 text-center">Terms of Service</h1>
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">1. Agreement to Terms</CardTitle>
+						<CardTitle className="font-medium">1. Agreement to Terms</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300">
@@ -21,7 +21,7 @@ export default function TermsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">2. Use License</CardTitle>
+						<CardTitle className="font-medium">2. Use License</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300 mb-4">
@@ -43,7 +43,7 @@ export default function TermsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">3. Disclaimer</CardTitle>
+						<CardTitle className="font-medium">3. Disclaimer</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300">
@@ -58,7 +58,7 @@ export default function TermsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">4. Limitations</CardTitle>
+						<CardTitle className="font-medium">4. Limitations</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300">
@@ -73,7 +73,7 @@ export default function TermsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">5. Revisions and Errata</CardTitle>
+						<CardTitle className="font-medium">5. Revisions and Errata</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300">
@@ -87,7 +87,7 @@ export default function TermsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">6. Governing Law</CardTitle>
+						<CardTitle className="font-medium">6. Governing Law</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300">

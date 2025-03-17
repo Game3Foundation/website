@@ -5,7 +5,7 @@ export default function AgenticSystemsPage() {
 		<div className="py-12 px-4">
 			<div className="max-w-4xl mx-auto">
 				<CardHeader className="text-center">
-					<CardTitle className="text-4xl font-serif mb-4">Agentic Systems</CardTitle>
+					<CardTitle className="text-4xl font-medium mb-4">Agentic Systems</CardTitle>
 					<CardDescription className="text-xl text-gray-400 max-w-3xl mx-auto">
 						Framework for implementing autonomous agents in games, enabling NPC behaviors with genuine
 						emergent intelligence.
@@ -15,7 +15,7 @@ export default function AgenticSystemsPage() {
 				<CardContent>
 					<div className="space-y-8 mt-8">
 						<div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
-							<h3 className="text-xl font-serif mb-2">Autonomous NPCs</h3>
+							<h3 className="text-xl font-medium mb-2">Autonomous NPCs</h3>
 							<p className="text-gray-300">
 								Our agentic systems framework allows non-player characters to operate with genuine
 								autonomy, making decisions based on their own goals, knowledge, and perceptions. This
@@ -24,7 +24,7 @@ export default function AgenticSystemsPage() {
 						</div>
 
 						<div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
-							<h3 className="text-xl font-serif mb-2">Emergent Behaviors</h3>
+							<h3 className="text-xl font-medium mb-2">Emergent Behaviors</h3>
 							<p className="text-gray-300">
 								By giving agents simple rules and objectives rather than scripted behaviors, complex and
 								unexpected interactions emerge naturally. This leads to game worlds that surprise even
@@ -33,7 +33,7 @@ export default function AgenticSystemsPage() {
 						</div>
 
 						<div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
-							<h3 className="text-xl font-serif mb-2">Memory and Learning</h3>
+							<h3 className="text-xl font-medium mb-2">Memory and Learning</h3>
 							<p className="text-gray-300">
 								Our agents can remember past interactions and learn from them, allowing NPCs to develop
 								relationships with players over time. They'll remember how you've treated them and
@@ -42,7 +42,7 @@ export default function AgenticSystemsPage() {
 						</div>
 
 						<div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
-							<h3 className="text-xl font-serif mb-2">Decentralized Intelligence</h3>
+							<h3 className="text-xl font-medium mb-2">Decentralized Intelligence</h3>
 							<p className="text-gray-300">
 								By running portions of agent intelligence on blockchain infrastructure, we enable
 								persistent NPCs that can exist across multiple games and environments. These agents can
