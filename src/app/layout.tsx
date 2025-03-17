@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
-import { Noto_Sans } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
 import { WalletProvider } from '@game3/providers/wallet-provider'
 import { ThemeProvider } from '@game3/providers/theme-provider'
@@ -14,8 +14,8 @@ import './globals.css'
 // Dynamically import NoiseShader with no server-side rendering
 const NoiseShader = dynamic(() => import('@game3/components/effects/NoiseShader'), { ssr: false })
 
-// Load Noto Sans font
-const notoSans = Noto_Sans({
+// Load Poppins font
+const poppins = Poppins({
 	subsets: ['latin'],
 	weight: ['400', '500', '600', '700'],
 	display: 'swap',
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body className={notoSans.className}>
+			<body className={`${poppins.className} flex flex-col min-h-screen`}>
 				<WalletProvider>
 					<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
 						<Header />
-						<main className="pt-16">{children}</main>
+						<main className="pt-16 flex-grow">{children}</main>
 						<Footer />
 						<Toaster />
 						<NoiseShader />
