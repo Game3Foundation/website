@@ -8,6 +8,9 @@ import Header from '@game3/components/layout/header'
 import Footer from '@game3/components/layout/footer'
 import { Toaster } from '@game3/components/ui/toaster'
 
+import Particles from '@game3/components/effects/NoiseShader'
+// import GlslNoiseShader from '@game3/components/effects/GlslNoiseShader'
+
 import './globals.css'
 
 const poppins = Poppins({
@@ -31,6 +34,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 						<main className="pt-16 flex-grow">{children}</main>
 						<Footer />
 						<Toaster />
+						<Particles />
+						{/* <GlslNoiseShader /> */}
 					</WalletProvider>
 				</ThemeProvider>
 			</body>
