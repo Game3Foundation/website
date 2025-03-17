@@ -68,7 +68,7 @@ npm start
 
 ## Project Structure
 ```markdown
-game3/www/
+game3/
 ├── public/            # Static assets
 ├── src/
 │   ├── app/           # Next.js app router pages
@@ -80,7 +80,7 @@ game3/www/
 │   │   └── ui/        # UI components (buttons, cards, etc.)
 │   ├── lib/           # Utility functions
 │   └── providers/     # Context providers
-├── LICENSE            # GPL-3.0 license
+├── LICENSE            # CC0 1.0 Universal license
 ├── package.json       # Project dependencies
 └── README.md          # Project documentation
 ```
@@ -88,6 +88,6 @@ game3/www/
 We welcome contributions from the community! Please read our Code of Conduct before contributing.
 
 ## License
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
+This project is dedicated to the public domain under the CC0 1.0 Universal license - see the [LICENSE](LICENSE) file for details. This means you are free to use, modify, distribute, and build upon this work, even for commercial purposes, without asking permission.
 
 
