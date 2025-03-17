@@ -26,7 +26,7 @@ export default function ApplicationSuccessPage() {
 								</svg>
 							</div>
 						</div>
-						<CardTitle className="font-serif text-3xl">Application Submitted Successfully!</CardTitle>
+						<CardTitle className="font-medium text-3xl">Application Submitted Successfully!</CardTitle>
 					</CardHeader>
 					<CardContent className="text-center">
 						<p className="text-gray-300 mb-6">

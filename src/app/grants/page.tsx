@@ -5,7 +5,7 @@ export default function GrantsPage() {
 	return (
 		<div className="container mx-auto px-4 py-16">
 			<div className="max-w-4xl mx-auto">
-				<h1 className="text-4xl font-serif mb-4 text-center">Game3 Grants Program</h1>
+				<h1 className="text-4xl font-medium mb-4 text-center">Game3 Grants Program</h1>
 				<p className="text-xl text-gray-400 max-w-3xl mx-auto text-center mb-12">
 					Supporting innovative projects at the intersection of gaming, blockchain, and AI.
 				</p>
@@ -21,7 +21,7 @@ export default function GrantsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">About the Program</CardTitle>
+						<CardTitle className="font-medium">About the Program</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300 mb-4">
@@ -38,7 +38,7 @@ export default function GrantsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">What We Fund</CardTitle>
+						<CardTitle className="font-medium">What We Fund</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300 mb-4">
@@ -58,7 +58,7 @@ export default function GrantsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">Selection Criteria</CardTitle>
+						<CardTitle className="font-medium">Selection Criteria</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300 mb-4">Applications are evaluated based on:</p>
@@ -75,7 +75,7 @@ export default function GrantsPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white">
 					<CardHeader>
-						<CardTitle className="font-serif">Timeline</CardTitle>
+						<CardTitle className="font-medium">Timeline</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300 mb-4">

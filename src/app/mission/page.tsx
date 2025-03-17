@@ -4,11 +4,11 @@ export default function MissionPage() {
 	return (
 		<div className="container mx-auto px-4 py-16">
 			<div className="max-w-4xl mx-auto">
-				<h1 className="text-4xl font-serif mb-8 text-center">Our Mission</h1>
+				<h1 className="text-4xl font-medium mb-8 text-center">Our Mission</h1>
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">Building the Future of Gaming</CardTitle>
+						<CardTitle className="font-medium">Building the Future of Gaming</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<p className="text-gray-300 mb-4">
@@ -26,12 +26,12 @@ export default function MissionPage() {
 
 				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
 					<CardHeader>
-						<CardTitle className="font-serif">Core Principles</CardTitle>
+						<CardTitle className="font-medium">Core Principles</CardTitle>
 					</CardHeader>
 					<CardContent>
 						<div className="space-y-4">
 							<div>
-								<h3 className="text-xl font-serif mb-2">Decentralization</h3>
+								<h3 className="text-xl font-medium mb-2">Decentralization</h3>
 								<p className="text-gray-300">
 									We believe in creating gaming ecosystems that aren't controlled by single entities,
 									but are owned and operated by their communities.
@@ -39,7 +39,7 @@ export default function MissionPage() {
 							</div>
 
 							<div>
-								<h3 className="text-xl font-serif mb-2">Player Ownership</h3>
+								<h3 className="text-xl font-medium mb-2">Player Ownership</h3>
 								<p className="text-gray-300">
 									Players should have true ownership over their digital assets and be able to transfer
 									value between different gaming experiences.
@@ -47,7 +47,7 @@ export default function MissionPage() {
 							</div>
 
 							<div>
-								<h3 className="text-xl font-serif mb-2">Open Innovation</h3>
+								<h3 className="text-xl font-medium mb-2">Open Innovation</h3>
 								<p className="text-gray-300">
 									We're committed to open-source development and collaborative research that pushes
 									the boundaries of what's possible in gaming.
@@ -55,7 +55,7 @@ export default function MissionPage() {
 							</div>
 
 							<div>
-								<h3 className="text-xl font-serif mb-2">AI Integration</h3>
+								<h3 className="text-xl font-medium mb-2">AI Integration</h3>
 								<p className="text-gray-300">
 									We're exploring how artificial intelligence can create more dynamic, responsive, and
 									personalized gaming experiences.
