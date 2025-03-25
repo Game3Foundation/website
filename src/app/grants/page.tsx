@@ -13,7 +13,7 @@ export default function GrantsPage() {
 				<div className="text-center mb-12">
 					<SparkleButton
 						href="/grants/apply"
-						className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-4"
+						className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-4"
 					>
 						Apply for Grant
 					</SparkleButton>

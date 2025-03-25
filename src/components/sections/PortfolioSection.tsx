@@ -64,10 +64,10 @@ export default function PortfolioSection() {
 					{portfolioItems.map((item, index) => (
 						<Card
 							key={index}
-							className="bg-black border-gray-800 text-white overflow-hidden hover:border-orange-500 transition-all duration-300"
+							className="bg-black border-gray-800 text-white overflow-hidden hover:border-primary transition-all duration-300"
 						>
 							<div className="h-48 bg-black relative">
-								<div className="absolute inset-0 flex items-center justify-center bg-orange-900/50">
+								<div className="absolute inset-0 flex items-center justify-center bg-accent/30">
 									<span className="text-2xl font-medium">{item.title}</span>
 								</div>
 							</div>
@@ -77,7 +77,9 @@ export default function PortfolioSection() {
 							</CardHeader>
 							<CardFooter>
 								<Link href={item.link} passHref>
-									<Button className="bg-orange-500 hover:bg-orange-600 text-white">Learn More</Button>
+									<Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+										Learn More
+									</Button>
 								</Link>
 							</CardFooter>
 						</Card>

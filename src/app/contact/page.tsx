@@ -120,7 +120,7 @@ export default function ContactPage() {
 							<Button
 								type="submit"
 								disabled={isSubmitting}
-								className="w-full bg-orange-500 hover:bg-orange-600"
+								className="w-full bg-primary hover:bg-primary/90"
 							>
 								{isSubmitting ? 'Sending...' : 'Send Message'}
 							</Button>
@@ -137,7 +137,7 @@ export default function ContactPage() {
 						<h3 className="text-xl font-medium mb-2">Discord</h3>
 						<p className="text-gray-400">
 							Join our{' '}
-							<a href="https://discord.gg/h2VMgWY" className="text-orange-400 hover:text-orange-300">
+							<a href="https://discord.gg/h2VMgWY" className="text-primary hover:text-primary/80">
 								Discord server
 							</a>
 						</p>
@@ -146,7 +146,7 @@ export default function ContactPage() {
 						<h3 className="text-xl font-medium mb-2">Twitter</h3>
 						<p className="text-gray-400">
 							Follow us{' '}
-							<a href="https://x.com/game3foundation" className="text-orange-400 hover:text-orange-300">
+							<a href="https://x.com/game3foundation" className="text-primary hover:text-primary/80">
 								@game3foundation
 							</a>
 						</p>

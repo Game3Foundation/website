@@ -28,7 +28,7 @@ export default function WalletButton() {
 	// but still call all the hooks above
 	if (!mounted) {
 		return (
-			<Button variant="default" className="bg-orange-500 hover:bg-orange-600 text-white" disabled>
+			<Button variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground" disabled>
 				Connect Wallet
 			</Button>
 		)
@@ -38,8 +38,17 @@ export default function WalletButton() {
 	if (isConnected && address) {
 		return (
 			<>
-				<SparkleButton href="/grants/apply">Apply for a Grant</SparkleButton>
-				<Button variant="outline" className="border-gray-700 text-gray-300" onClick={openAccountModal}>
+				<SparkleButton
+					href="/grants/apply"
+					className="bg-primary hover:bg-primary/90 text-primary-foreground font-light"
+				>
+					Apply for a Grant
+				</SparkleButton>
+				<Button
+					variant="outline"
+					className="border-gray-700 text-gray-300 font-light"
+					onClick={openAccountModal}
+				>
 					{formatAddress(address)}
 				</Button>
 			</>
@@ -48,7 +57,11 @@ export default function WalletButton() {
 
 	// Not connected state
 	return (
-		<Button onClick={openConnectModal} variant="default" className="bg-orange-500 hover:bg-orange-600 text-white">
+		<Button
+			onClick={openConnectModal}
+			variant="default"
+			className="bg-primary hover:bg-primary/90 text-primary-foreground font-light"
+		>
 			Connect Wallet
 		</Button>
 	)

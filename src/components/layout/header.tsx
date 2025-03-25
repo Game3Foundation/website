@@ -8,7 +8,7 @@ import dynamic from 'next/dynamic'
 const WalletButton = dynamic(() => import('@game3/components/wallet/wallet-button'), {
 	ssr: false,
 	loading: () => (
-		<Button variant="default" className="bg-orange-500 hover:bg-orange-600 text-white" disabled>
+		<Button variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground" disabled>
 			Connect Wallet
 		</Button>
 	),

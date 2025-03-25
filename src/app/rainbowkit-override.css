@@ -1,9 +1,9 @@
 :root {
-  --rk-colors-accentColor: hsl(36 100% 50%);
-  --rk-colors-accentColorForeground: white;
+  --rk-colors-accentColor: hsl(56 100% 47%); /* Yellow instead of orange */
+  --rk-colors-accentColorForeground: black;
 }
 
 .dark {
-  --rk-colors-accentColor: hsl(36 100% 50%);
+  --rk-colors-accentColor: hsl(56 100% 47%); /* Yellow instead of orange */
   --rk-colors-accentColorForeground: black;
 }

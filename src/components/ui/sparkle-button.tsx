@@ -26,7 +26,8 @@ export const SparkleButton = ({ href, className, children, ...props }: SparkleBu
 	const [sparkles, setSparkles] = useState<SparkleProps[]>([])
 
 	const getRandomColor = () => {
-		const colors = ['#FF9800', '#F57C00', '#FB8C00', '#FF9800', '#FFA726', '#FFB74D']
+		// Replace orange colors with yellow, pink, and lime
+		const colors = ['#f0e100', '#ff3bac', '#84cc16', '#f0e100', '#ff3bac', '#84cc16']
 		return colors[Math.floor(Math.random() * colors.length)]
 	}
 

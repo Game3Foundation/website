@@ -245,7 +245,7 @@ export default function GrantApplicationPage() {
 				<h1 className="text-4xl font-medium mb-4 text-center">Grant Application</h1>
 
 				{!isConnected && currentStep === 3 && (
-					<Alert className="mb-6 bg-orange-500/20 border-orange-500 text-white">
+					<Alert className="mb-6 bg-primary/20 border-primary text-white">
 						<AlertDescription>
 							Please connect your wallet to complete the application process.
 						</AlertDescription>
@@ -258,7 +258,7 @@ export default function GrantApplicationPage() {
 							<div
 								key={i}
 								className={`flex items-center justify-center w-10 h-10 rounded-full
-                  ${currentStep > i + 1 ? 'bg-green-600' : currentStep === i + 1 ? 'bg-orange-500' : 'bg-gray-700'}
+                  ${currentStep > i + 1 ? 'bg-green-600' : currentStep === i + 1 ? 'bg-primary' : 'bg-gray-700'}
                   text-white font-medium`}
 							>
 								{i + 1}
@@ -699,7 +699,7 @@ export default function GrantApplicationPage() {
 												<Button
 													type="button"
 													onClick={prevStep}
-													className="bg-orange-500 hover:bg-orange-600"
+													className="bg-primary hover:bg-primary/90"
 												>
 													Connect Wallet
 												</Button>
@@ -747,14 +747,14 @@ export default function GrantApplicationPage() {
 							)}
 
 							{currentStep < totalSteps ? (
-								<Button type="button" onClick={nextStep} className="bg-orange-500 hover:bg-orange-600">
+								<Button type="button" onClick={nextStep} className="bg-primary hover:bg-primary/90">
 									Next
 								</Button>
 							) : (
 								<Button
 									type="submit"
 									disabled={isSubmitting || !formData.termsAgreed || !isConnected}
-									className="bg-orange-500 hover:bg-orange-600"
+									className="bg-primary hover:bg-primary/90"
 								>
 									{isSubmitting ? 'Submitting...' : 'Sign & Submit Application'}
 								</Button>

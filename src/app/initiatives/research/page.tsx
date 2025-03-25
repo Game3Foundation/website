@@ -54,7 +54,7 @@ export default function ResearchPage() {
 						<p className="text-gray-400">
 							Our research is open and collaborative. If you're interested in contributing or learning
 							more about our ongoing projects, please reach out via our{' '}
-							<a href="/contact" className="text-orange-400 hover:text-orange-300">
+							<a href="/contact" className="text-primary hover:text-primary/80">
 								contact page
 							</a>
 							.
