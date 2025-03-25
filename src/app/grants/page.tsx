@@ -19,7 +19,7 @@ export default function GrantsPage() {
 					</SparkleButton>
 				</div>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">About the Program</CardTitle>
 					</CardHeader>
@@ -36,7 +36,7 @@ export default function GrantsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">What We Fund</CardTitle>
 					</CardHeader>
@@ -56,7 +56,7 @@ export default function GrantsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Selection Criteria</CardTitle>
 					</CardHeader>
@@ -73,7 +73,7 @@ export default function GrantsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white">
+				<Card className="bg-black border-gray-800 text-white">
 					<CardHeader>
 						<CardTitle className="font-medium">Timeline</CardTitle>
 					</CardHeader>

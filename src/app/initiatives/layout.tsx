@@ -6,7 +6,7 @@ export default function InitiativesLayout({ children }: { children: React.ReactN
 		<div className="min-h-screen bg-black text-white">
 			<div className="pt-8 pb-12 md:pt-12 md:pb-16">
 				<div className="container px-4 mx-auto">
-					<Card className="bg-gray-900 border-gray-800 text-white">{children}</Card>
+					<Card className="bg-black border-gray-800 text-white">{children}</Card>
 				</div>
 			</div>
 		</div>

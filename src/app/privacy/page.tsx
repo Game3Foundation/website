@@ -6,7 +6,7 @@ export default function PrivacyPage() {
 			<div className="max-w-4xl mx-auto">
 				<h1 className="text-4xl font-medium mb-8 text-center">Privacy Policy</h1>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Introduction</CardTitle>
 					</CardHeader>
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Information We Collect</CardTitle>
 					</CardHeader>
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Use of Data</CardTitle>
 					</CardHeader>
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Contact Us</CardTitle>
 					</CardHeader>

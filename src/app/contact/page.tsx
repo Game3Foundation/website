@@ -131,13 +131,13 @@ export default function ContactPage() {
 				<div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
 					<div>
 						<h3 className="text-xl font-medium mb-2">Email</h3>
-						<p className="text-gray-400">info@game3.foundation</p>
+						<p className="text-gray-400">hey@game3.foundation</p>
 					</div>
 					<div>
 						<h3 className="text-xl font-medium mb-2">Discord</h3>
 						<p className="text-gray-400">
 							Join our{' '}
-							<a href="https://discord.gg/game3" className="text-orange-400 hover:text-orange-300">
+							<a href="https://discord.gg/h2VMgWY" className="text-orange-400 hover:text-orange-300">
 								Discord server
 							</a>
 						</p>
@@ -146,11 +146,8 @@ export default function ContactPage() {
 						<h3 className="text-xl font-medium mb-2">Twitter</h3>
 						<p className="text-gray-400">
 							Follow us{' '}
-							<a
-								href="https://twitter.com/game3_official"
-								className="text-orange-400 hover:text-orange-300"
-							>
-								@game3_official
+							<a href="https://x.com/game3foundation" className="text-orange-400 hover:text-orange-300">
+								@game3foundation
 							</a>
 						</p>
 					</div>

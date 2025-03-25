@@ -6,7 +6,7 @@ export default function MissionPage() {
 			<div className="max-w-4xl mx-auto">
 				<h1 className="text-4xl font-medium mb-8 text-center">Our Mission</h1>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Building the Future of Gaming</CardTitle>
 					</CardHeader>
@@ -24,7 +24,7 @@ export default function MissionPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">Core Principles</CardTitle>
 					</CardHeader>

@@ -6,7 +6,7 @@ export default function TermsPage() {
 			<div className="max-w-4xl mx-auto">
 				<h1 className="text-4xl font-medium mb-8 text-center">Terms of Service</h1>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">1. Agreement to Terms</CardTitle>
 					</CardHeader>
@@ -19,7 +19,7 @@ export default function TermsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">2. Use License</CardTitle>
 					</CardHeader>
@@ -41,7 +41,7 @@ export default function TermsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">3. Disclaimer</CardTitle>
 					</CardHeader>
@@ -56,7 +56,7 @@ export default function TermsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">4. Limitations</CardTitle>
 					</CardHeader>
@@ -71,7 +71,7 @@ export default function TermsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">5. Revisions and Errata</CardTitle>
 					</CardHeader>
@@ -85,7 +85,7 @@ export default function TermsPage() {
 					</CardContent>
 				</Card>
 
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader>
 						<CardTitle className="font-medium">6. Governing Law</CardTitle>
 					</CardHeader>

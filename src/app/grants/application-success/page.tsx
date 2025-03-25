@@ -6,7 +6,7 @@ export default function ApplicationSuccessPage() {
 	return (
 		<div className="container mx-auto px-4 py-16">
 			<div className="max-w-3xl mx-auto">
-				<Card className="bg-gray-900 border-gray-800 text-white mb-8">
+				<Card className="bg-black border-gray-800 text-white mb-8">
 					<CardHeader className="text-center">
 						<div className="flex justify-center mb-6">
 							<div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center">
